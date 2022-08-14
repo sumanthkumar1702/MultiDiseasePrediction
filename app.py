@@ -3,15 +3,15 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 # loading saved models
-heart = pickle.load(open('C:/Users/suman/OneDrive/Desktop/multidisease/saved models/heart.pkl','rb'))
+heart = pickle.load(open('C:/Users/suman/OneDrive/Desktop/modelonheroku/heart.pkl','rb'))
 
-diabetes = pickle.load(open('C:/Users/suman/OneDrive/Desktop/multidisease/saved models/diabetes.pkl','rb'))
+diabetes = pickle.load(open('C:/Users/suman/OneDrive/Desktop/modelonheroku/diabetes.pkl','rb'))
 
-breastcancer = pickle.load(open('C:/Users/suman/OneDrive/Desktop/multidisease/saved models/breast_cancer.pkl','rb'))
+breastcancer = pickle.load(open('C:/Users/suman/OneDrive/Desktop/modelonheroku/breast_cancer.pkl','rb'))
 
-liver = pickle.load(open('C:/Users/suman/OneDrive/Desktop/multidisease/saved models/liver.pkl','rb'))
+liver = pickle.load(open('C:/Users/suman/OneDrive/Desktop/modelonheroku/liver.pkl','rb'))
 
-parkinsons = pickle.load(open('C:/Users/suman/OneDrive/Desktop/multidisease/saved models/parkinsons.pkl','rb'))
+parkinsons = pickle.load(open('C:/Users/suman/OneDrive/Desktop/modelonheroku/parkinsons.pkl','rb'))
 
 # sidebar for navigation
 
